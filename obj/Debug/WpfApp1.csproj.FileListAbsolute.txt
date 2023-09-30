@@ -1,0 +1,57 @@
+C:\Users\user\source\repos\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\user\source\repos\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\user\source\repos\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\user\source\repos\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\user\source\repos\WpfApp1\obj\Debug\App.g.cs
+C:\Users\user\source\repos\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\user\source\repos\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\user\source\repos\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\user\source\repos\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\user\source\repos\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\user\source\repos\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\user\source\repos\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\user\source\repos\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\user\source\repos\WpfApp1\obj\Debug\App.baml
+C:\Users\user\source\repos\Ceiling project\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Ceiling project\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\Ceiling project\obj\Debug\MainWindow.g.cs
+C:\Users\user\source\repos\Ceiling project\obj\Debug\Window1.g.cs
+C:\Users\user\source\repos\Ceiling project\obj\Debug\App.g.cs
+C:\Users\user\source\repos\Ceiling project\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\user\source\repos\Ceiling project\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\user\source\repos\Ceiling project\bin\Debug\WpfApp1.exe.config
+C:\Users\user\source\repos\Ceiling project\bin\Debug\WpfApp1.exe
+C:\Users\user\source\repos\Ceiling project\bin\Debug\WpfApp1.pdb
+C:\Users\user\source\repos\Ceiling project\obj\Debug\App.baml
+C:\Users\user\source\repos\Ceiling project\obj\Debug\MainWindow.baml
+C:\Users\user\source\repos\Ceiling project\obj\Debug\Window1.baml
+C:\Users\user\source\repos\Ceiling project\obj\Debug\WpfApp1.g.resources
+C:\Users\user\source\repos\Ceiling project\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\user\source\repos\Ceiling project\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Ceiling project\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Ceiling project\obj\Debug\WpfApp1.exe
+C:\Users\user\source\repos\Ceiling project\obj\Debug\WpfApp1.pdb
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\bin\Debug\WpfApp1.exe.config
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\bin\Debug\WpfApp1.exe
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\bin\Debug\WpfApp1.pdb
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\MainWindow.g.cs
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\Window1.g.cs
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\Window2.g.cs
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\App.g.cs
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\App.baml
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\MainWindow.baml
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\Window1.baml
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\Window2.baml
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\WpfApp1.g.resources
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\WpfApp1.exe
+C:\Users\user\Downloads\ceiling-my-feauture (1)\ceiling-my-feauture\obj\Debug\WpfApp1.pdb
