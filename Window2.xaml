@@ -99,7 +99,7 @@
                     </Button.Style>
                 </Button>
 
-                <Button Name="btnWater" VerticalAlignment="Center" Grid.Row="4" Click="btnWater_Click">
+                <Button Name="btnWater" VerticalAlignment="Center" Grid.Row="4">
                     <Button.Style>
                         <Style TargetType="Button">
                             <Setter Property="Template">
@@ -130,30 +130,196 @@
 
 
         <Border Background="White" Grid.Column="1" Margin="35, 35, 0, 35" CornerRadius="20, 0, 0, 20">
-            <Grid Margin="75, 35, 75, 35">
+            <Grid Margin="10, 35, 10, 35">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
+
                 </Grid.RowDefinitions>
 
-                <TextBox Grid.Row="0" Name="passwordTextBox" Text="{Binding Path=Pin, UpdateSourceTrigger=PropertyChanged}"  FontSize="35" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" MaxHeight="40">
-                    <TextBox.Effect>
-                        <DropShadowEffect Color="#FF555555"  ShadowDepth="3" Opacity="0.7" BlurRadius="10"/>
-                    </TextBox.Effect>
-                    <TextBox.Resources>
-                        <Style TargetType="Border">
-                            <Setter Property="CornerRadius" Value="10"></Setter>
-                        </Style>
-                    </TextBox.Resources>
-                </TextBox>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
 
-                <UniformGrid Grid.Row="1" Rows="1" Columns="3" MaxHeight="50">
+                <Button Name="btnUp" VerticalAlignment="Center" Grid.Row="0">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Grid>
+                                            <Image Name="btnImage" Source="./Images/uparrow_norm.png" Height="100">
+
+                                            </Image>
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsPressed" Value="True">
+                                                <Setter TargetName="btnImage" Property="Source" Value="./Images/uparrow_isPressed.png" />
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+
+                <Button Name="btnDown" VerticalAlignment="Center" Grid.Row="1">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Grid>
+                                            <Image Name="btnImage" Source="./Images/downarrow_norm.png" Height="100">
+
+                                            </Image>
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsPressed" Value="True">
+                                                <Setter TargetName="btnImage" Property="Source" Value="./Images/downarrow_isPressed.png" />
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+
+
+
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Image Source="./Images/AC.PNG" Grid.Row="0" Width="90"></Image>
+
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button Name="btnOn" VerticalAlignment="Center" Grid.Row="1">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Grid>
+                                                    <Image Name="btnImage" Source="./Images/on_norm.png" Width="90">
+
+                                                    </Image>
+                                                </Grid>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsPressed" Value="True">
+                                                        <Setter TargetName="btnImage" Property="Source" Value="./Images/on_isPressed.png" />
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                        <Button Name="btnOff" VerticalAlignment="Center" Grid.Column="1">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Grid>
+                                                    <Image Name="btnImage" Source="./Images/off_norm.png" Width="90">
+
+                                                    </Image>
+                                                </Grid>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsPressed" Value="True">
+                                                        <Setter TargetName="btnImage" Property="Source" Value="./Images/off_isPressed.png" />
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                        
+                        
+                    </Grid>
                     
-                   
-                </UniformGrid>
+                                       
+                </Grid>
+
+                <Grid Grid.Row="2" Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Image Source="./Images/DC.PNG" Grid.Row="0" Width="80"></Image>
+
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button Name="btnOn1" VerticalAlignment="Center" Grid.Row="1">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Grid>
+                                                    <Image Name="btnImage" Source="./Images/on_norm.png" Width="90">
+
+                                                    </Image>
+                                                </Grid>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsPressed" Value="True">
+                                                        <Setter TargetName="btnImage" Property="Source" Value="./Images/on_isPressed.png" />
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                        <Button Name="btnOff1" VerticalAlignment="Center" Grid.Column="1">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Grid>
+                                                    <Image Name="btnImage" Source="./Images/off_norm.png" Width="90">
+
+                                                    </Image>
+                                                </Grid>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsPressed" Value="True">
+                                                        <Setter TargetName="btnImage" Property="Source" Value="./Images/off_isPressed.png" />
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                    </Grid>
+                </Grid>
+
+
 
             </Grid>
 

@@ -185,5 +185,27 @@
     <Resource Include="Images\water_isPressed.png" />
     <Resource Include="Images\water_norm.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\uparrow_isPressed.png" />
+    <Resource Include="Images\uparrow_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\downarrow_isPressed.png" />
+    <Resource Include="Images\downarrow_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\AC.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\on_isPressed.png" />
+    <Resource Include="Images\on_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\off_isPressed.png" />
+    <Resource Include="Images\off_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\DC.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
