@@ -207,5 +207,13 @@
   <ItemGroup>
     <Resource Include="Images\DC.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\latch_isPressed.png" />
+    <Resource Include="Images\latch_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\settings_isPressed.png" />
+    <Resource Include="Images\settings_norm.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

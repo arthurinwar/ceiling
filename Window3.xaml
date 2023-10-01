@@ -10,58 +10,13 @@
     <Window.Background>
         <ImageBrush ImageSource="./Images/background.png" Stretch="Fill"></ImageBrush>
     </Window.Background>
-    
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <Button Name="btnLock" VerticalAlignment="Top" Grid.Column="0" Grid.ColumnSpan="2" Margin="0, 35">
-            <Button.Style>
-                <Style TargetType="Button">
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="Button">
-                                <Grid>
-                                    <Image Name="btnImage" Source="./Images/latch_norm.png" Width="50">
-
-                                    </Image>
-                                </Grid>
-                                <ControlTemplate.Triggers>
-                                    <Trigger Property="IsPressed" Value="True">
-                                        <Setter TargetName="btnImage" Property="Source" Value="./Images/latch_isPressed.png" />
-                                    </Trigger>
-                                </ControlTemplate.Triggers>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-            </Button.Style>
-        </Button>
-
-        <Button Name="btnSettings" VerticalAlignment="Center" Grid.Column="0" Grid.ColumnSpan="2" >
-            <Button.Style>
-                <Style TargetType="Button">
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="Button">
-                                <Grid>
-                                    <Image Name="btnImage" Source="./Images/settings_norm.png" Width="50">
-
-                                    </Image>
-                                </Grid>
-                                <ControlTemplate.Triggers>
-                                    <Trigger Property="IsPressed" Value="True">
-                                        <Setter TargetName="btnImage" Property="Source" Value="./Images/settings_isPressed.png" />
-                                    </Trigger>
-                                </ControlTemplate.Triggers>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-            </Button.Style>
-        </Button>
 
         <Border Background="White" Grid.Column="0" Margin="0, 35, 35, 35" CornerRadius="0, 20, 20, 0">
             <Grid Margin="70, 0, 70, 0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
@@ -294,11 +249,11 @@
                                 </Style>
                             </Button.Style>
                         </Button>
-                        
-                        
+
+
                     </Grid>
-                    
-                                       
+
+
                 </Grid>
 
                 <Grid Grid.Row="2" Grid.Column="1">
@@ -371,3 +326,4 @@
         </Border>
     </Grid>
 </Window>
+
