@@ -61,6 +61,9 @@
     <Compile Include="Window2.xaml.cs">
       <DependentUpon>Window2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window4.xaml.cs">
+      <DependentUpon>Window4.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -78,6 +81,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -214,6 +221,30 @@
   <ItemGroup>
     <Resource Include="Images\settings_isPressed.png" />
     <Resource Include="Images\settings_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\house_isPressed.png" />
+    <Resource Include="Images\house_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ac_isPressed.png" />
+    <Resource Include="Images\ac_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\dc_isPressed.png" />
+    <Resource Include="Images\dc_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\descentAcsent_norm.png" />
+    <Resource Include="Images\descentAscent_isPressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\passChange_isPressed.png" />
+    <Resource Include="Images\passChange_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\passChangeSettings_isPressed.png" />
+    <Resource Include="Images\passChangeSettings_norm.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
