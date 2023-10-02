@@ -78,3 +78,7 @@ C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\WpfApp1.csproj.GenerateReso
 C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window4.g.cs
 C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window4.baml
+C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window5.g.cs
+C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window5.baml
+C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window6.g.cs
+C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window6.baml

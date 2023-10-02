@@ -64,6 +64,12 @@
     <Compile Include="Window4.xaml.cs">
       <DependentUpon>Window4.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window5.xaml.cs">
+      <DependentUpon>Window5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window6.xaml.cs">
+      <DependentUpon>Window6.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -85,6 +91,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window6.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -245,6 +259,22 @@
   <ItemGroup>
     <Resource Include="Images\passChangeSettings_isPressed.png" />
     <Resource Include="Images\passChangeSettings_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\manual_isPressed.png" />
+    <Resource Include="Images\manual_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\arrowUp_isPressed.png" />
+    <Resource Include="Images\arrowUp_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\arrowDown_isPressed.png" />
+    <Resource Include="Images\arrowDown_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\doubleArrow_norm.png" />
+    <Resource Include="Images\doubleArrow_isPressed.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
