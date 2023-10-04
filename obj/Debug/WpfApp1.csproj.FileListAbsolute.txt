@@ -82,3 +82,5 @@ C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window5.g.cs
 C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window5.baml
 C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window6.g.cs
 C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window6.baml
+C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window7.g.cs
+C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window7.baml
