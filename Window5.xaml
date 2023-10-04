@@ -195,10 +195,10 @@
                     </Button.Style>
                 </Button>
 
-                <TextBlock Text="1" Grid.Column="1" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#444D71"/>
-                <TextBlock Text="2" Grid.Column="1" Grid.Row="1" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#444D71"/>
-                <TextBlock Text="3" Grid.Column="1" Grid.Row="2" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#444D71"/>
-                <TextBlock Text="4" Grid.Column="1" Grid.Row="4" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#444D71"/>
+                <TextBlock Text="1" Grid.Column="1" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#8FABDB"/>
+                <TextBlock Text="2" Grid.Column="1" Grid.Row="1" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#8FABDB"/>
+                <TextBlock Text="3" Grid.Column="1" Grid.Row="2" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#8FABDB"/>
+                <TextBlock Text="4" Grid.Column="1" Grid.Row="4" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#8FABDB"/>
 
                 <Button Name="firstArrowDown" VerticalAlignment="Center" Grid.Row="0" Grid.Column="2">
                     <Button.Style>
@@ -406,10 +406,10 @@
                     </Button.Style>
                 </Button>
 
-                <TextBlock Text="5" Grid.Column="1" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#444D71"/>
-                <TextBlock Text="6" Grid.Column="1" Grid.Row="1" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#444D71"/>
-                <TextBlock Text="7" Grid.Column="1" Grid.Row="2" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#444D71"/>
-                <TextBlock Text="8" Grid.Column="1" Grid.Row="4" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#444D71"/>
+                <TextBlock Text="5" Grid.Column="1" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#8FABDB"/>
+                <TextBlock Text="6" Grid.Column="1" Grid.Row="1" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#8FABDB"/>
+                <TextBlock Text="7" Grid.Column="1" Grid.Row="2" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#8FABDB"/>
+                <TextBlock Text="8" Grid.Column="1" Grid.Row="4" TextAlignment="Center" VerticalAlignment="Center" FontSize="57" FontFamily="Inter" Foreground="#8FABDB"/>
 
                 <Button Name="fifthArrowDown" VerticalAlignment="Center" Grid.Row="0" Grid.Column="2">
                     <Button.Style>
