@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WpfApp1"
              xmlns:Effects="clr-namespace:System.Windows.Media.Effects;assembly=PresentationCore"
-             StartupUri="Window15.xaml">
+             StartupUri="Window16.xaml">
     <Application.Resources>
         <Style TargetType="Control">
             <Setter Property="FontFamily" Value="pack://application:,,,/ceiling;component/Fonts/Inter-VariableFont_slnt,wght.ttf" />
