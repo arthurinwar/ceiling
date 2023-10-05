@@ -102,3 +102,7 @@ C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window15.g.cs
 C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window15.baml
 C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window16.g.cs
 C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window16.baml
+C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Images\Window1.g.cs
+C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window17.g.cs
+C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Images\Window1.baml
+C:\Users\user\Desktop\Ceiling-work-project\obj\Debug\Window17.baml
