@@ -70,6 +70,9 @@
     <Compile Include="Window13.xaml.cs">
       <DependentUpon>Window13.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window14.xaml.cs">
+      <DependentUpon>Window14.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Window2.xaml.cs">
       <DependentUpon>Window2.xaml</DependentUpon>
     </Compile>
@@ -120,6 +123,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window13.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window14.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -324,6 +331,14 @@
   <ItemGroup>
     <Resource Include="Images\doubleArrow_norm.png" />
     <Resource Include="Images\doubleArrow_isPressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\comma_isPressed.png" />
+    <Resource Include="Images\comma_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cancell_isPressed.png" />
+    <Resource Include="Images\cancell_norm.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
