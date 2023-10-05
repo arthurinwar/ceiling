@@ -74,7 +74,7 @@
                 </Grid.RowDefinitions>
 
 
-                <TextBlock Text="ВРЕМЯ" FontSize="34" FontFamily="Inter" Foreground="#54628A" Grid.Row="0" HorizontalAlignment="Center"/>
+                <TextBlock Text="ВРЕМЯ" FontSize="20" FontFamily="Inter" Foreground="#54628A" Grid.Row="0" HorizontalAlignment="Center" FontWeight="Bold"/>
 
                 <Grid Grid.Row="2">
                     <Grid.ColumnDefinitions>
