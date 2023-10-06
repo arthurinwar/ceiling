@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="Window6" Height="475" Width="850"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
 
         <Window.Background>
             <ImageBrush ImageSource="./Images/background.png" Stretch="Fill"></ImageBrush>

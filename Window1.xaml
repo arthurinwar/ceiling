@@ -7,7 +7,8 @@
       mc:Ignorable="d" 
       Height="475" Width="850"
       Title="Window1.xaml"
-      WindowStartupLocation="CenterScreen">
+      WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
 
     <Window.Background>
         <ImageBrush ImageSource="./Images/background.png" Stretch="Fill"></ImageBrush>
