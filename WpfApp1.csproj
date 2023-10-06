@@ -88,11 +88,11 @@
     <Compile Include="Window18.xaml.cs">
       <DependentUpon>Window18.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Window19.xaml.cs">
-      <DependentUpon>Window19.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Window2.xaml.cs">
       <DependentUpon>Window2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window20.xaml.cs">
+      <DependentUpon>Window20.xaml</DependentUpon>
     </Compile>
     <Compile Include="Window4.xaml.cs">
       <DependentUpon>Window4.xaml</DependentUpon>
@@ -168,11 +168,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Window19.xaml">
+    <Page Include="Window2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Window2.xaml">
+    <Page Include="Window20.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -388,6 +388,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\pin_incorrect.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\vacuum_isPressed.png" />
+    <Resource Include="Images\vacuum_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ventilation_isPressed.png" />
+    <Resource Include="Images\ventilation_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\220v.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ind_isPressed.png" />
+    <Resource Include="Images\ind_norm.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

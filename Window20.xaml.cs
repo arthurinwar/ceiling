@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для Window19.xaml
+    /// Логика взаимодействия для Window20.xaml
     /// </summary>
-    public partial class Window19 : Window
+    public partial class Window20 : Window
     {
-        public Window19()
+        public Window20()
         {
             InitializeComponent();
         }

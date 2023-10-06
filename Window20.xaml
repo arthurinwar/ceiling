@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp1.Window20"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window20" Height="475" Width="850"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Background>
+        <ImageBrush ImageSource="./Images/background.png" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Border Width="500" Height="90" CornerRadius="10" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Color="#A8CFEC" Offset="0"/>
+                    
+                    <GradientStop Color="#687AC4" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <TextBlock Text="ЗАГРУЗКА" Foreground="White" FontSize="50" FontFamily="Inter" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
+        </Border>
+
+        <TextBlock Text='ООО «ПРОФЛАБМЕБ»' FontSize="34" Foreground="#B9CAD6" FontFamily="Inter" TextAlignment="Center"  HorizontalAlignment="Right" FontWeight="SemiBold" Margin="0, 20, 20, 0"/>
+
+    </Grid>
+</Window>
